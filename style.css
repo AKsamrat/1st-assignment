@@ -111,9 +111,12 @@ body {
   );
   width: 1320px;
   height: 482px;
+  margin-left: 140px;
+  border-radius: 16px;
+  text-align: center;
 }
 
-.address-info h4 {
+.address-info p {
   color: #070211;
   font-family: Inter;
   font-size: 32px;
@@ -125,6 +128,7 @@ body {
   padding-top: 100px;
   padding-left: 390px;
   padding-right: 390px;
+  width: 650px;
 }
 
 .party-title {
@@ -135,8 +139,8 @@ body {
   color: #f00;
   font-family: Inter;
   font-size: 32px;
-  /* font-weight: 600;
-  line-height: 56px; */
+  font-weight: 600;
+  line-height: 56px;
 }
 
 .address-join-btn {
@@ -148,8 +152,131 @@ body {
   border-radius: 8px;
   background: #f00;
   border: 0px;
+  color: #fff;
 }
 .btn-red {
-  padding-left: 580px;
+  padding-left: 150px;
   padding-top: 50px;
+}
+
+/* offer section style =======================>>>>>>> */
+
+.offer-main-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  padding-bottom: 45px;
+}
+
+.offer-description {
+  color: #f00;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.offer-sub-title {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 45px;
+}
+
+.offer-img {
+  width: 802.9px;
+  height: 500px;
+  padding-left: 400px;
+  padding-bottom: 90px;
+}
+
+/* footer section style =============================>>>>>>>> */
+.footer {
+  background: #070211;
+  width: 1600px;
+  height: 650px;
+}
+
+.contact-container {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  gap: 380px;
+  padding-left: 150px;
+  padding-top: 90px;
+}
+
+.contact-address {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.contact-info {
+  padding-bottom: 70px;
+  width: 500px;
+}
+
+.contact-cell {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  width: 250px;
+}
+
+.contact-web {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.h-line {
+  background: rgba(255, 255, 255, 0.15);
+  width: 1200px;
+  height: 0.5px;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.cell-img img {
+  width: 18px;
+  height: 10px;
+}
+
+.social-link {
+  display: inline;
+  height: 160px;
+
+  padding-left: 600px;
+}
+
+.social-link img {
+  align-items: center;
+  padding: 0px 12px;
+}
+
+.social {
+  height: 140px;
+  padding-top: 60px;
+}
+
+.contact-unsubscribe {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 220px;
 }
