@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.main-section {
+  width: 1600px;
+  height: 4000px;
+  background: #fff;
+}
+
+/* banner section style =======>>>>> */
+
+.banner {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url('image/Banner\ Image.png');
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  margin: 40px 140px;
+}
+
+.banner-info {
+  text-align: center;
+  padding-top: 180px;
+}
+
+.banner-subtitle {
+  color: #fff;
+  /* text-align: center; */
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.banner-main-title {
+  color: #fff;
+  width: 632px;
+  /* text-align: center; */
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  padding-left: 350px;
+}
+
+/* party celebrate section style ======>>>>>> */
+
+.party {
+  /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%); */
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url('image/Vectorrr.png');
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  margin: 40px 140px;
+}
+
+.party-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  width: 645px;
+}
+
+.party-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 700px;
+  padding-bottom: 50px;
+}
+
+.join-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: black;
+  border: 0;
+}
+
+.party-info {
+  padding-top: 126px;
+  padding-left: 126px;
+}
+
+/* address section style ========> */
+
+.address {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 482px;
+}
+
+.address-info h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.address-info {
+  padding-top: 100px;
+  padding-left: 390px;
+  padding-right: 390px;
+}
+
+.party-title {
+  font-stretch: ultra-condensed;
+}
+
+.span-place {
+  color: #f00;
+  font-family: Inter;
+  font-size: 32px;
+  /* font-weight: 600;
+  line-height: 56px; */
+}
+
+.address-join-btn {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+  border: 0px;
+}
+.btn-red {
+  padding-left: 580px;
+  padding-top: 50px;
+}
