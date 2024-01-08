@@ -96,6 +96,21 @@ body {
   border: 0;
 }
 
+.party-img {
+  width: 319.83px;
+  height: 464.662px;
+  padding: 0.008px 0px 0px 0px;
+  align-items: center;
+  margin-top: 70px;
+  margin-right: 140px;
+}
+
+.party-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
 .party-info {
   padding-top: 126px;
   padding-left: 126px;
@@ -157,6 +172,42 @@ body {
 .btn-red {
   padding-left: 70px;
   padding-top: 50px;
+}
+
+/* best offer section style ===================> */
+
+.best-offer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 90px;
+  width: 1000px;
+  margin-left: 140px;
+}
+
+.best-offer-subtitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.best-offer-maintitle {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+
+.best-offer-des {
+  color: rgba(7, 2, 17, 0.6);
+  width: 380px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 /* offer section style =======================>>>>>>> */
