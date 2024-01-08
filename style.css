@@ -101,7 +101,7 @@ body {
   padding-left: 126px;
 }
 
-/* address section style ========> */
+/* address section style ================> */
 
 .address {
   background: linear-gradient(
@@ -193,6 +193,130 @@ body {
   height: 500px;
   padding-left: 400px;
   padding-bottom: 90px;
+}
+
+/* portfolio section style =================== */
+
+.portfolio {
+  background: #fff;
+  width: 1200px;
+  height: 1100px;
+  margin-left: 140px;
+}
+
+.portfolio-sub-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+
+.portfolio-main-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+
+.portfolio-descrioption {
+  color: rgba(7, 2, 17, 0.6);
+  width: 896px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 35px;
+}
+
+.img-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.image {
+  border-radius: 16px;
+  background: lightgray 0px -35.755px;
+  width: 424px;
+  height: 450px;
+  flex-shrink: 0;
+}
+
+/* subcribe newslatter style =================> */
+
+.subscribe {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  width: 1320px;
+  height: 600px;
+  margin: 120px 140px;
+}
+
+.subscribe-img {
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  padding-left: 580px;
+  padding-top: 80px;
+}
+
+.subscribe-title {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-top: 35px;
+}
+
+.subscribe-paragrap {
+  color: rgba(7, 2, 17, 0.6);
+  width: 896px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-left: 210px;
+  padding-top: 18px;
+  padding-bottom: 30px;
+}
+
+.subscribe-email {
+  border-radius: 50px 0px 0px 50px;
+  background: #fff;
+  width: 450px;
+  height: 72px;
+  border: 0px;
+  margin-left: 300px;
+}
+
+.sub-btn {
+  width: 190px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: 0px;
+  /* margin-left: 740px; */
+  color: #fff;
+  /* padding-bottom: 160px; */
+}
+
+.sub-button {
+  /* padding-right: 330px; */
+  margin-right: 400px;
+}
+
+.btn-container {
+  display: flex;
+  justify-self: self-end;
+  gap: 0px;
+  padding-left: 30px;
 }
 
 /* footer section style =============================>>>>>>>> */
